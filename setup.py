@@ -7,10 +7,10 @@ import cv2
 import os
 
 
-import libutils.asp_log as log
-from libutils.asp_system import clear_all
-from interface.ets2_vision import Vision
-from interface.ets2_speed import Speed
+import utils.lib_log as log
+from utils.lib_system import clear_all
+from interface.ets2.vision import Vision
+from interface.ets2.speed import Speed
 
 V = Vision({'fps': 15})
 _Speed = Speed({})

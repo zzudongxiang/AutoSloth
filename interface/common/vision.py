@@ -10,9 +10,9 @@ if __name__ == '__main__':
     sys_path = os.path.abspath(sys_path)
     sys.path.append(sys_path)
 
-import libutils.asp_log as log
-from libutils.asp_config import init_param
-from libutils.asp_windows import grab_windows
+import utils.lib_log as log
+from utils.lib_config import init_param
+from utils.lib_windows import grab_windows
 
 
 class Vision:

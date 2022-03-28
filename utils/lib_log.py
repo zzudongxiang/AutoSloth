@@ -10,8 +10,8 @@ sys_path = os.path.abspath(sys_path)
 if __name__ == '__main__':
     sys.path.append(sys_path)
 
-from libutils.asp_config import get
-from libutils.asp_regex import get_int
+from utils.lib_config import get
+from utils.lib_regex import get_int
 
 __log_level__ = get_int(get('settings', 'log_level', '1'), 1)
 __log_path__ = os.path.join(sys_path, 'log/')

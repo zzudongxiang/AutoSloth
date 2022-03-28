@@ -8,7 +8,7 @@ if __name__ == '__main__':
     sys_path = os.path.abspath(sys_path)
     sys.path.append(sys_path)
 
-from libutils.asp_config import init_param
+from utils.lib_config import init_param
 
 import cv2
 class Speed:

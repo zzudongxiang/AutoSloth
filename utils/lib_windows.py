@@ -9,7 +9,7 @@ if __name__ == '__main__':
     sys_path = os.path.abspath(sys_path)
     sys.path.append(sys_path)
 
-import libutils.asp_log as log
+import utils.lib_log as log
 
 
 class __Windows:
